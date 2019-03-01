@@ -36,19 +36,15 @@ end
 
 
 def using_flatten (array)
-   array.flatten
+  array.flatten
 end
 
 def using_delete (array, string)
- instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
-    no_offense_steven = using_delete(instructors, "Steven")
-    expect(instructors).not_to include("Steven")
+  array.delete(string)
 end
 
 def using_delete_at (array, integer)
-  famous_robots = ["the dog from doctor who", "R2D2", "Ultron"]
-    deleted_robot = using_delete_at(famous_robots, 2)
-    expect(deleted_robot)
-  end
+  array.delete()
+end
 
   
