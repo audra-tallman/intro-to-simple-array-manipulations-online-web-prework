@@ -23,15 +23,11 @@ def shift_with_arts(array)
 end
 
 def using_concat (array1, array2)
-  
+  array1.concat(array2)
 end
 
 def using_insert(array, element)
-  @list_of_esoteric_programming_languages = ["Ante", "ArnoldC", "Befunge", "Binary lambda calculus", "Chef", "GolfScript", "Ook!"]
-    @another_esoteric_language = "Malbolge"
-    @new_array = using_insert(@list_of_esoteric_programming_languages, @another_esoteric_language)
-  (@new_array[4])
-  (@new_array.length)
+  array
 end
 
 def using_uniq (array)
