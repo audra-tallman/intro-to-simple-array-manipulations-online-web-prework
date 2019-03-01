@@ -11,17 +11,11 @@ def using_pop (array)
 end
 
 def pop_with_args (array)
-    @chars_in_game_of_thrones = ["Danny T.", "Tyrion Lannister", "Stable Boy", "Sandor Clegane"]
-    @chars_arya_killed = pop_with_args(@chars_in_game_of_thrones)
-@chars_arya_killed
-  @chars_in_game_of_thrones.size
+   array.pop(2)
 end
 
 def using_shift(array)
-   @my_favorite_cities = ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"]
-    @im_so_over_this_city = using_shift(@my_favorite_cities)
-  @im_so_over_this_city
-  @my_favorite_cities.size
+  array.shift
 end
 
 def shift_with_arts(array)
