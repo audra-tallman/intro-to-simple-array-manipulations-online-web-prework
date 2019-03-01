@@ -31,15 +31,12 @@ def using_insert(array, element)
 end
 
 def using_uniq (array)
-  captain_planet_and_the_planeteers = ["Captain Planet", "Gaia", "Kwame", "Gi", "Linka", "Wheeler", "Gaia"]
-    new_array = using_uniq(captain_planet_and_the_planeteers)
-    expect(new_array).to eq(["Captain Planet", "Gaia", "Kwame", "Gi", "Linka", "Wheeler"])
+  array.uniq
 end
 
 
 def using_flatten 
-    private_colleges_in_newyork = ["New York University", ["Manhattan School of Music ", "Columbia University"], "The Juilliard School", "Bard College", "Cooper Union"]
-     flat_array = using_flatten(private_colleges_in_newyork)
+   array.
 end
 
 def using_delete (array, string)
