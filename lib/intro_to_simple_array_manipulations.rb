@@ -1,16 +1,13 @@
-def using_push (array, string)
- array.push (string)
+def using_push(array, string)
+ array.push(string)
 end
 
-def using_unshift (array, string)
-  
+def using_unshift(array, string)
+  array.unshift(string)
 end
 
 def using_pop (array)
-   @great_hits_of_the_nineties = ["Baby One More Time", "Smells Like Teen Spirit", "Missing", "Walking On The Sun", "Hard Knock Life", "Losing My Religion"]
-    @deleted_string = using_pop(@great_hits_of_the_nineties)
-  @deleted_string
-  @great_hits_of_the_nineties.size
+  array.pop
 end
 
 def pop_with_args (array)
